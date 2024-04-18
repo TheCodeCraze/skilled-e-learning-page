@@ -1,0 +1,8 @@
+.courses {
+  width: 100%;
+  padding: 140px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 56px 30px;
+}

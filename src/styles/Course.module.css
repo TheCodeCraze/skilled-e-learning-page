@@ -1,0 +1,60 @@
+.course,
+.popular-course {
+  width: 350px;
+  height: 322px;
+  border-radius: 15px;
+}
+
+.course {
+  background: #ffffff;
+  padding: 64px 32px 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0 25px 50px 0 hsla(233, 92%, 29%, 0.0442);
+}
+
+.icon {
+  position: absolute;
+  left: 32px;
+  top: -24px;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 24px;
+  font-weight: 800;
+  color: #13183f;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 500;
+  color: #83869a;
+  line-height: 28px;
+}
+
+.cta {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f74780;
+  line-height: 28px;
+  position: relative;
+}
+
+.cta:hover {
+  opacity: 0.5;
+}
+
+.popular-course {
+  background: linear-gradient(to bottom, #ff6f48, #f02aa6);
+  padding: 64px 32px;
+  font-size: 32px;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 40px;
+  cursor: pointer;
+}
