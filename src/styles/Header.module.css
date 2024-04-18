@@ -1,2 +1,30 @@
 .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.cta {
+  width: 167px;
+  height: 56px;
+  background: #13183f;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 28px;
+  border: none;
+  outline: none;
+  border-radius: 28px;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background: #666ca3;
 }

@@ -1,2 +1,62 @@
 .hero {
+  width: 100%;
+  height: 800px;
+  padding: 24px 165px;
+  position: relative;
+  overflow: hidden;
+}
+
+.text {
+  width: 457px;
+  height: 359px;
+  margin-top: 178px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 56px;
+  font-weight: 800;
+  color: #13183f;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 500;
+  color: #83869a;
+  line-height: 28px;
+}
+
+.cta {
+  width: 167px;
+  height: 63px;
+  background: linear-gradient(to bottom, #ff6f48, #f02aa6);
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 28px;
+  position: relative;
+  border: none;
+  outline: none;
+  border-radius: 31.5px;
+  cursor: pointer;
+}
+
+.cta:hover::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 28px;
+  background: hsla(0, 0%, 100%, 0.5);
+}
+
+.image {
+  position: absolute;
+  top: -146.13px;
+  right: -335.63px;
 }
