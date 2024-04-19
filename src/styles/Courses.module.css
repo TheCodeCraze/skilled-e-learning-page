@@ -4,13 +4,13 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 56px 30px;
+  gap: 80px 30px;
 }
 
 @media screen and (max-width: 1024px) {
   .courses {
     padding: 70px 0 86px;
-    gap: 32px 10px;
+    gap: 56px 10px;
   }
 }
 
