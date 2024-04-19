@@ -58,3 +58,51 @@
   line-height: 40px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 1024px) {
+  .course,
+  .popular-course {
+    width: 340px;
+    height: 259px;
+    border-radius: 10px;
+  }
+
+  .course {
+    padding: 56px 22px 32px 32px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .popular-course {
+    padding: 56px 32px;
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .course,
+  .popular-course {
+    width: 100%;
+    height: 259px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .course {
+    padding: 56px 28px 32px;
+  }
+
+  .popular-course {
+    height: 120px;
+    padding: 24px 28px 32px;
+  }
+}

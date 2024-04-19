@@ -6,3 +6,23 @@
   flex-wrap: wrap;
   gap: 56px 30px;
 }
+
+@media screen and (max-width: 1024px) {
+  .courses {
+    padding: 70px 0 86px;
+    gap: 32px 10px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .courses {
+    padding: 70px 16px 80px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .courses {
+    padding: 0 16px 80px;
+    gap: 40px;
+  }
+}
