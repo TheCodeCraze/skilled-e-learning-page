@@ -5,10 +5,10 @@ import { Footer } from "./Footer";
 
 export const App = () => {
   return (
-    <div className={styles.container}>
+    <main className={styles.container}>
       <Hero />
       <Courses />
       <Footer />
-    </div>
+    </main>
   );
 };
